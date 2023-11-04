@@ -1,5 +1,6 @@
 :root {
     --links-font-family: 'Source Sans 3', sans-serif;
+    --primary-color: #0a2c36;
 }
 
 * {
@@ -8,16 +9,51 @@
     box-sizing: border-box;
   }
 
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .flex {
     display: flex;
 }
 
 .header {
     justify-content: space-between;
+    column-gap: 24px;
     margin: 0 192.5px;
     padding: 0 24px;
     height: 96px;
     border: 1px solid black;
     align-items: center;
     font-family: var(--links-font-family);
+}
+
+.navigation {
+   flex-grow: 1;
+   justify-content: end;
+   column-gap: 24px;
+}
+
+.log-in-block {
+    align-items: center;
+    column-gap: 16px;
+}
+
+.button-dark {
+    border: 0;
+    border-radius: 7px;
+    font-family: var(--links-font-family);
+    font-size: 16px;
+    color: #fff;
+    background-color: #0a2c36;
+    padding: 8px 32px;
+}
+
+.button-dark:hover {
+    background-color: #0d4353;
 }

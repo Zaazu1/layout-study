@@ -28,7 +28,6 @@ a:hover {
     margin: 0 192.5px;
     padding: 0 24px;
     height: 96px;
-    border: 1px solid black;
     align-items: center;
     font-family: var(--links-font-family);
 }
@@ -42,6 +41,12 @@ a:hover {
 .log-in-block {
     align-items: center;
     column-gap: 16px;
+}
+
+.background-image {
+    background: url('https://www.anyplace.com/home/thumbnail.jpg') center;
+    background-size: cover;
+    height: 740px;
 }
 
 .button-dark {

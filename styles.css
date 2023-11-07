@@ -83,3 +83,15 @@ a:hover {
     padding: 40px 24px;
     justify-content: space-between;
 }
+
+.apartments {
+    background-color: #faf6f0;
+    padding: 0px 8px;
+}
+
+.apartments>h1 {
+    font-family: var(--links-font-family);
+    font-size: 46px;
+    color: var(--primary-color);
+    width: 720px;
+}
